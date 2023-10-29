@@ -18,7 +18,7 @@
   gap: 10px;
 }
 .label-container {
-  background-color: white;
+  color: white;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
@@ -35,4 +35,13 @@
 }
 .label-container span {
   display: none;
+}
+.input-1 {
+  background-color: #376680;
+}
+.input-2 {
+  background-color: #325595;
+}
+.input-3 {
+  background-color: #4956a3;
 }

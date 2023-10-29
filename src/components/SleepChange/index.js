@@ -56,8 +56,8 @@ const SleepChange = () => {
             Select all the changes you would like to see
           </span>
         </h1>
-        <form className="sleep-change-form">
-          <label className="label-container">
+        <form className="sleep-change-form ">
+          <label className="label-container input-1">
             <input
               className="input-container"
               type="checkbox"
@@ -69,7 +69,7 @@ const SleepChange = () => {
               <IoMdCheckmarkCircle className="check-logo" />
             </span>
           </label>
-          <label className="label-container">
+          <label className="label-container input-2">
             <input
               className="input-container"
               type="checkbox"
@@ -81,7 +81,7 @@ const SleepChange = () => {
               <IoMdCheckmarkCircle className="check-logo" />
             </span>
           </label>
-          <label className="label-container">
+          <label className="label-container input-3">
             <input
               className="input-container"
               type="checkbox"
