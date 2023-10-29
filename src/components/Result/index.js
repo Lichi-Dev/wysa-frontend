@@ -13,7 +13,7 @@ const Result = () => {
       <h1 className="result-heading">
         You seem to have a sleep efficiency of 65% That's good😎<br></br>
         <br></br>A higher sleep efficiency means a more refreshing and
-        energizing sleep,which can help you movbe into your day with a sense of
+        energizing sleep,which can help you move into your day with a sense of
         lightness and ease.
       </h1>
       <button onClick={logout} className="logout-button">
