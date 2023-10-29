@@ -3,9 +3,11 @@ import logo from "../../assets/icon.webp";
 import "./index.css";
 import Button from "../Button";
 import Typed from "typed.js";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const el = React.useRef(null);
+  const navigate = useNavigate();
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Hey! I'm <span style='color:#009E99'>wysa</span>"],
@@ -18,6 +20,9 @@ const Home = () => {
       typed.destroy();
     };
   }, []);
+  const clickFunction = () => {
+    navigate("/introduction");
+  };
   return (
     <div className="home-container">
       <div className="home-sub-container">
@@ -34,7 +39,7 @@ const Home = () => {
         </p>
       </div>
       <div className="para-text transition">
-        <Button />
+        <Button clickFunction={clickFunction} />
       </div>
     </div>
   );

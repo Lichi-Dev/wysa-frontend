@@ -61,3 +61,17 @@
   color: #2222ff;
   text-decoration: none;
 }
+.show-password-button {
+  width: 130px;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #090923;
+  color: white;
+}

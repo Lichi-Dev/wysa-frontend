@@ -2,9 +2,10 @@ import React from "react";
 import "./index.css";
 import { HiArrowNarrowDown } from "react-icons/hi";
 
-const Button = () => {
+const Button = (props) => {
+  const { clickFunction } = props;
   return (
-    <button className="button-container bounce">
+    <button onClick={clickFunction} className="button-container bounce">
       <HiArrowNarrowDown />
     </button>
   );
