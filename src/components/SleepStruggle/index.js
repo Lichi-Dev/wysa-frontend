@@ -42,7 +42,7 @@ const SleepStruggle = () => {
     <div className="sleepchange-container">
       <div>
         <h1 className="intro-heading">
-          That's a great goal. how long have you been struggling with your
+          That's a great goal. How long have you been struggling with your
           sleep?
         </h1>
         <form className="sleep-change-form">
